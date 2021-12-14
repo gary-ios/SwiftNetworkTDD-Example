@@ -27,13 +27,3 @@ extension BeerListingViewController : UITableViewDelegate, UITableViewDataSource
        return cell
     }
 }
-
-
-class BeerListingTableViewCell : UITableViewCell {}
-
-
-extension UITableViewCell {
-    class var identifier: String {
-      return "\(self)"
-  }
-}
