@@ -8,6 +8,9 @@
 import UIKit
 
 class BeerListingViewController : UIViewController {
+    
+    private var beerViewModels : [BeerViewModel] = []
+    
     @IBOutlet weak var tableView : UITableView! {
         didSet {
           tableView.register(
@@ -25,7 +28,6 @@ class BeerListingViewController : UIViewController {
         super.viewWillAppear(animated)
         refreshData()
     }
-      
     
     private func setupRefreshControl() {
         let refreshControl = UIRefreshControl()
@@ -43,7 +45,10 @@ class BeerListingViewController : UIViewController {
 extension BeerListingViewController : UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        guard !tableView.refreshControl!.isRefreshing else {
+            return 0
+        }
+        return max(beerViewModels.count, 1)
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -55,9 +60,9 @@ extension BeerListingViewController : UITableViewDelegate, UITableViewDataSource
     }
     
     private func listingCell(_ tableView: UITableView, _ indexPath: IndexPath) -> BeerListingTableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: BeerListingTableViewCell.identifier) as? BeerListingTableViewCell else {
-            return BeerListingTableViewCell()
-        }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: BeerListingTableViewCell.identifier) as? BeerListingTableViewCell else { return BeerListingTableViewCell() }
+        let viewModel = beerViewModels[indexPath.row]
+        viewModel.configure(cell)
         return cell
     }
     
