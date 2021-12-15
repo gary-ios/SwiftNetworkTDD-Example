@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		B3B47D232768FDC600D9DC40 /* BeerListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B47D222768FDC600D9DC40 /* BeerListingTableViewCell.swift */; };
 		B3B47D252768FDDF00D9DC40 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B47D242768FDDF00D9DC40 /* Extensions.swift */; };
+		B3B47D27276900F000D9DC40 /* ErrorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B47D26276900F000D9DC40 /* ErrorTableViewCell.swift */; };
+		B3B47D29276A744700D9DC40 /* ErrorTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3B47D28276A744700D9DC40 /* ErrorTableCell.xib */; };
+		B3B47D2B276A782D00D9DC40 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B47D2A276A782D00D9DC40 /* Protocols.swift */; };
 		B3D4FC122768BAC3001E4597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4FC112768BAC3001E4597 /* AppDelegate.swift */; };
 		B3D4FC142768BAC3001E4597 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4FC132768BAC3001E4597 /* SceneDelegate.swift */; };
 		B3D4FC162768BAC3001E4597 /* BeerListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4FC152768BAC3001E4597 /* BeerListingViewController.swift */; };
@@ -40,6 +43,9 @@
 /* Begin PBXFileReference section */
 		B3B47D222768FDC600D9DC40 /* BeerListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListingTableViewCell.swift; sourceTree = "<group>"; };
 		B3B47D242768FDDF00D9DC40 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B3B47D26276900F000D9DC40 /* ErrorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTableViewCell.swift; sourceTree = "<group>"; };
+		B3B47D28276A744700D9DC40 /* ErrorTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorTableCell.xib; sourceTree = "<group>"; };
+		B3B47D2A276A782D00D9DC40 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		B3D4FC0E2768BAC3001E4597 /* SwiftNetworkTDD-AppivateExampleCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftNetworkTDD-AppivateExampleCode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D4FC112768BAC3001E4597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3D4FC132768BAC3001E4597 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +101,7 @@
 				B3B47D242768FDDF00D9DC40 /* Extensions.swift */,
 				B3D4FC1C2768BAC5001E4597 /* LaunchScreen.storyboard */,
 				B3D4FC1A2768BAC5001E4597 /* Assets.xcassets */,
+				B3B47D2A276A782D00D9DC40 /* Protocols.swift */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -121,6 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				B3B47D222768FDC600D9DC40 /* BeerListingTableViewCell.swift */,
+				B3B47D26276900F000D9DC40 /* ErrorTableViewCell.swift */,
+				B3B47D28276A744700D9DC40 /* ErrorTableCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -278,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3D4FC1E2768BAC5001E4597 /* LaunchScreen.storyboard in Resources */,
+				B3B47D29276A744700D9DC40 /* ErrorTableCell.xib in Resources */,
 				B3D4FC1B2768BAC5001E4597 /* Assets.xcassets in Resources */,
 				B3D4FC192768BAC3001E4597 /* Main.storyboard in Resources */,
 			);
@@ -306,6 +316,8 @@
 			files = (
 				B3B47D252768FDDF00D9DC40 /* Extensions.swift in Sources */,
 				B3B47D232768FDC600D9DC40 /* BeerListingTableViewCell.swift in Sources */,
+				B3B47D2B276A782D00D9DC40 /* Protocols.swift in Sources */,
+				B3B47D27276900F000D9DC40 /* ErrorTableViewCell.swift in Sources */,
 				B3D4FC162768BAC3001E4597 /* BeerListingViewController.swift in Sources */,
 				B3D4FC122768BAC3001E4597 /* AppDelegate.swift in Sources */,
 				B3D4FC142768BAC3001E4597 /* SceneDelegate.swift in Sources */,
