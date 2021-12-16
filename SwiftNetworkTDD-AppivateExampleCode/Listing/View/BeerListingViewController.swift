@@ -35,7 +35,7 @@ class BeerListingViewController : UIViewController {
         
         refreshControl.addTarget(self, action: #selector(refreshData), for: .valueChanged)
         refreshControl.attributedTitle = NSAttributedString(string: "Loading...")
-      }
+    }
     
     @objc func refreshData() {
         
@@ -56,6 +56,9 @@ extension BeerListingViewController : UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard beerViewModels.count > 0 else {
+             return errorCell(tableView, indexPath)
+           }
         return listingCell(tableView, indexPath)
     }
     
@@ -68,5 +71,6 @@ extension BeerListingViewController : UITableViewDelegate, UITableViewDataSource
     
     private func errorCell(_ tableView: UITableView, _ indexPath: IndexPath) -> UITableViewCell {
         return tableView.dequeueReusableCell(withIdentifier: ErrorTableViewCell.identifier, for: indexPath)
+        
     }
 }

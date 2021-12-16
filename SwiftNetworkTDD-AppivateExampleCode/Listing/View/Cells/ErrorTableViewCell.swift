@@ -7,8 +7,8 @@
 
 import UIKit
 
-class ErrorTableViewCell: UITableViewCell {
-  @IBOutlet var containerView: UIView!
-  @IBOutlet var titleLabel: UILabel!
-  @IBOutlet var subtitleLabel: UILabel!
+class ErrorTableViewCell : UITableViewCell {
+    @IBOutlet var containerView : UIView!
+    @IBOutlet var titleLabel : UILabel!
+    @IBOutlet var subtitleLabel : UILabel!
 }

@@ -7,4 +7,14 @@
 
 import UIKit
 
-class BeerListingTableViewCell : UITableViewCell {}
+class BeerListingTableViewCell : UITableViewCell {
+    
+    @IBOutlet var breederRatingImageView : UIImageView!
+    @IBOutlet var nameLabel : UILabel!
+    @IBOutlet var containerView : UIView! {
+        didSet {
+          let selectedBackgroundView = UIView(frame: containerView.frame)
+          self.selectedBackgroundView = selectedBackgroundView
+        }
+    }
+}
