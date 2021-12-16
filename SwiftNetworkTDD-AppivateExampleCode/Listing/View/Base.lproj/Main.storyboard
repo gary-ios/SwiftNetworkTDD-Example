@@ -82,6 +82,7 @@
                                         <color key="backgroundColor" name="background"/>
                                         <connections>
                                             <outlet property="breederRatingImageView" destination="AKT-rr-XUv" id="fq4-dh-jRK"/>
+                                            <outlet property="containerView" destination="znX-MR-7f2" id="TEN-zm-Y2m"/>
                                             <outlet property="nameLabel" destination="vxb-Qw-vhK" id="2Ve-A4-FLk"/>
                                         </connections>
                                     </tableViewCell>
@@ -103,7 +104,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Listings" id="oKq-j1-LFd"/>
                     <connections>
-                        <outlet property="tableView" destination="1Kk-Jt-vuV" id="1fl-d1-pWm"/>
+                        <outlet property="tableView" destination="1Kk-Jt-vuV" id="M41-cX-a9x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kk3-Yi-keL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

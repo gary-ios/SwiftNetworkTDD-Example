@@ -20,7 +20,7 @@
 		B3D4FC192768BAC3001E4597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D4FC172768BAC3001E4597 /* Main.storyboard */; };
 		B3D4FC1B2768BAC5001E4597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D4FC1A2768BAC5001E4597 /* Assets.xcassets */; };
 		B3D4FC1E2768BAC5001E4597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D4FC1C2768BAC5001E4597 /* LaunchScreen.storyboard */; };
-		B3D4FC292768BAC5001E4597 /* SwiftNetworkTDD_AppivateExampleCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4FC282768BAC5001E4597 /* SwiftNetworkTDD_AppivateExampleCodeTests.swift */; };
+		B3D4FC292768BAC5001E4597 /* BeerListingsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4FC282768BAC5001E4597 /* BeerListingsViewControllerTests.swift */; };
 		B3D4FC332768BAC5001E4597 /* SwiftNetworkTDD_AppivateExampleCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4FC322768BAC5001E4597 /* SwiftNetworkTDD_AppivateExampleCodeUITests.swift */; };
 		B3D4FC352768BAC5001E4597 /* SwiftNetworkTDD_AppivateExampleCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4FC342768BAC5001E4597 /* SwiftNetworkTDD_AppivateExampleCodeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -59,7 +59,7 @@
 		B3D4FC1D2768BAC5001E4597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3D4FC1F2768BAC5001E4597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3D4FC242768BAC5001E4597 /* SwiftNetworkTDD-AppivateExampleCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftNetworkTDD-AppivateExampleCodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3D4FC282768BAC5001E4597 /* SwiftNetworkTDD_AppivateExampleCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNetworkTDD_AppivateExampleCodeTests.swift; sourceTree = "<group>"; };
+		B3D4FC282768BAC5001E4597 /* BeerListingsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListingsViewControllerTests.swift; sourceTree = "<group>"; };
 		B3D4FC2E2768BAC5001E4597 /* SwiftNetworkTDD-AppivateExampleCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftNetworkTDD-AppivateExampleCodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D4FC322768BAC5001E4597 /* SwiftNetworkTDD_AppivateExampleCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNetworkTDD_AppivateExampleCodeUITests.swift; sourceTree = "<group>"; };
 		B3D4FC342768BAC5001E4597 /* SwiftNetworkTDD_AppivateExampleCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNetworkTDD_AppivateExampleCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -190,7 +190,7 @@
 		B3D4FC272768BAC5001E4597 /* SwiftNetworkTDD-AppivateExampleCodeTests */ = {
 			isa = PBXGroup;
 			children = (
-				B3D4FC282768BAC5001E4597 /* SwiftNetworkTDD_AppivateExampleCodeTests.swift */,
+				B3D4FC282768BAC5001E4597 /* BeerListingsViewControllerTests.swift */,
 			);
 			path = "SwiftNetworkTDD-AppivateExampleCodeTests";
 			sourceTree = "<group>";
@@ -352,7 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3D4FC292768BAC5001E4597 /* SwiftNetworkTDD_AppivateExampleCodeTests.swift in Sources */,
+				B3D4FC292768BAC5001E4597 /* BeerListingsViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
