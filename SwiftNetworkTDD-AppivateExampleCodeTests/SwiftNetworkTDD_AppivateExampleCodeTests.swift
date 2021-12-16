@@ -8,10 +8,14 @@
 import XCTest
 @testable import SwiftNetworkTDD_AppivateExampleCode
 
-class SwiftNetworkTDD_AppivateExampleCodeTests: XCTestCase {
+class SwiftNetworkTDD_AppivateExampleCodeTests : XCTestCase {
+    
+    var sut : BeerListingViewController!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        super.setUp()
+        sut = BeerListingViewController.instanceFromStoryboard()
+        sut.loadViewIfNeeded()
     }
 
     override func tearDownWithError() throws {
@@ -21,13 +25,6 @@ class SwiftNetworkTDD_AppivateExampleCodeTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
     }
 
 }

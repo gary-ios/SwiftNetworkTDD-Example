@@ -102,10 +102,10 @@
 		B3B47D1D2768FD3A00D9DC40 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				B3B47D2A276A782D00D9DC40 /* Protocols.swift */,
 				B3B47D242768FDDF00D9DC40 /* Extensions.swift */,
 				B3D4FC1C2768BAC5001E4597 /* LaunchScreen.storyboard */,
 				B3D4FC1A2768BAC5001E4597 /* Assets.xcassets */,
-				B3B47D2A276A782D00D9DC40 /* Protocols.swift */,
 			);
 			path = Assets;
 			sourceTree = "<group>";

@@ -71,6 +71,5 @@ extension BeerListingViewController : UITableViewDelegate, UITableViewDataSource
     
     private func errorCell(_ tableView: UITableView, _ indexPath: IndexPath) -> UITableViewCell {
         return tableView.dequeueReusableCell(withIdentifier: ErrorTableViewCell.identifier, for: indexPath)
-        
     }
 }

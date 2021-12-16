@@ -12,7 +12,7 @@
         <!--Listings-->
         <scene sceneID="oE2-Js-mqn">
             <objects>
-                <viewController storyboardIdentifier="BeerListingsViewController" id="sw7-4q-WNW" customClass="BeerListingViewController" customModule="SwiftNetworkTDD_AppivateExampleCode" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BeerListingViewController" id="sw7-4q-WNW" customClass="BeerListingViewController" customModule="SwiftNetworkTDD_AppivateExampleCode" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jKR-PI-cR1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
